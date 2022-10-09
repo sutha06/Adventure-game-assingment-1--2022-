@@ -1,3 +1,5 @@
+"""This is the data logic of the game as well as the interactive page of the game"""
+
 
 #import statements
 import random
@@ -17,6 +19,7 @@ def gameover():
         print("your speed points are: ", speed)
         print("your agility points are: ", agility)
         print("your strength points are: ", strength)
+        print("Your total points are", lives + speed + agility + strength)
         sys.exit()
 
 
@@ -95,7 +98,7 @@ total = die1 + die2
 print("You rolled a {} and a {} ".format(die1, die2) +
       "for a total of {}.".format(total))
 if total <= 6:
-    print("you have succefully landed your action, You win")
+    print("you have successfully landed your action, You win")
     speed = speed + 150
     agility = agility + 150
     strength = strength + 150
@@ -137,10 +140,12 @@ else:
     print("your agility points are: ", agility)
     print("your strength points are: ", strength)
     print("Your current have", lives, "hearts left")
-    print()
-    print()
+    gameover()
 # sleep statement to pause the output for some time
 sleep(2.5)
+# empty print statements to create space
+print()
+print()
 
 print("#################### Fight 2 ####################")
 # empty print statements to create space
@@ -174,7 +179,7 @@ total = die1 + die2
 print("You rolled a {} and a {} ".format(die1, die2) +
       "for a total of {}.".format(total))
 if total <= 6:
-    print("you have succefully landed your action, You win")
+    print("you have successfully landed your action, You win")
     speed = speed + 250
     agility = agility + 250
     strength = strength + 250
@@ -257,7 +262,7 @@ total = die1 + die2
 print("You rolled a {} and a {} ".format(die1, die2) +
       "for a total of {}.".format(total))
 if total <= 6:
-    print("you have succefully landed your action, You win")
+    print("you have successfully landed your action, You win")
     speed = speed + 600
     agility = agility + 600
     strength = strength + 600
