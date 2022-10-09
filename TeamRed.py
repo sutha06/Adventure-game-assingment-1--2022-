@@ -3,7 +3,7 @@
 
 def bigFighter():
     lives = 2
-    speed = 0
-    agility = 0
-    strength = 0
+    speed = -100
+    agility = 50
+    strength = 200
     return lives, speed, agility, strength

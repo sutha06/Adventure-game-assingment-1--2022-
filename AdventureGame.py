@@ -46,9 +46,9 @@ print()
 # sleep statement pauses the output for an amount of seconds
 sleep(2.5)
 print("""You will face multiple fights where you will roll dice 
-to determine your success in landing punches and gaining points for your skillsets,
-if you land on even numbers you will land your action, 
-if the numbers are odd you will miss your action""")
+to determine your success in landing punches and gaining points for your skill sets,
+if you land on a number equal or less than 6, you will land your action, 
+if the numbers are greater than 6, you will miss your action""")
 # empty print statements to create space
 print()
 print()
@@ -70,7 +70,7 @@ print("#################### Fight 1 ####################")
 print()
 print()
 sleep(2.5)
-print("Lets start the first fight, your first opponent is Manny Pacquiao. He's going to be a tough opponent but if your lucky, you could beat him, GOOD LUCK!")
+print("Let's start the first fight, your first opponent is Manny Pacquiao. He's going to be a tough opponent but if you're lucky, you could beat him, GOOD LUCK!")
 # empty print statements to create space
 print()
 print()
@@ -80,9 +80,9 @@ fight1 = input(
 if fight1 == "l":
     print("The player sets up their footwork to go for a Left hook swing, you will land the punch if you roll a number lower or equal to 6")
 elif fight1 == "u":
-    print("The player gets below the oponent to swing for a uppercut, you will land the punch if you roll a number lower or equal to 6")
+    print("The player gets below the opponent to swing for a uppercut, you will land the punch if you roll a number lower or equal to 6")
 else:
-    print("You didnt land on a number lower than 6, this resuted in you getting punched in the face")
+    print("You didn't land on a number lower than 6, this resulted in you getting punched in the face")
 # sleep statement pauses the output for 3 seconds
 sleep(5.5)
 
@@ -139,7 +139,7 @@ else:
     print("Your current have", lives, "hearts left")
     print()
     print()
-# sleep statement to pause the ouput for some time
+# sleep statement to pause the output for some time
 sleep(2.5)
 
 print("#################### Fight 2 ####################")
@@ -314,4 +314,5 @@ print("You have", lives, "hearts left")
 print("your speed points are: ", speed)
 print("your agility points are: ", agility)
 print("your strength points are: ", strength)
+print("Your total points are", lives + speed + agility + strength)
 print("GAME OVER")

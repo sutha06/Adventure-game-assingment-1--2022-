@@ -3,7 +3,7 @@
 
 def smallFighter():
     lives = 2
-    speed = 0
-    agility = 0
-    strength = 0
+    speed = 100
+    agility = 200
+    strength = 100
     return lives, speed, agility, strength
