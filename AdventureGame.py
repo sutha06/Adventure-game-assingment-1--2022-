@@ -96,9 +96,9 @@ print("You rolled a {} and a {} ".format(die1, die2) +
       "for a total of {}.".format(total))
 if total <= 6:
     print("you have succefully landed your action, You win")
-    speed = speed + 100
-    agility = agility + 100
-    strength = strength + 100
+    speed = speed + 150
+    agility = agility + 150
+    strength = strength + 150
     sleep(2.5)
     # empty print statements to create space
     print()
@@ -175,9 +175,9 @@ print("You rolled a {} and a {} ".format(die1, die2) +
       "for a total of {}.".format(total))
 if total <= 6:
     print("you have succefully landed your action, You win")
-    speed = speed + 200
-    agility = agility + 200
-    strength = strength + 200
+    speed = speed + 250
+    agility = agility + 250
+    strength = strength + 250
     sleep(2.5)
     # empty print statements to create space
     print()
@@ -258,9 +258,9 @@ print("You rolled a {} and a {} ".format(die1, die2) +
       "for a total of {}.".format(total))
 if total <= 6:
     print("you have succefully landed your action, You win")
-    speed = speed + 500
-    agility = agility + 500
-    strength = strength + 500
+    speed = speed + 600
+    agility = agility + 600
+    strength = strength + 600
     sleep(2.5)
     # empty print statements to create space
     print()
