@@ -23,6 +23,20 @@ def gameover():
         sys.exit()
 
 
+print("""________                            ___      ___                
+`MMMMMMMb.                           MM      `MM                
+ MM    `Mb                           MM       MM                
+ MM     MM ___   ___ ___  __    __   MM____   MM   ____         
+ MM     MM `MM    MM `MM 6MMb  6MMb  MMMMMMb  MM  6MMMMb        
+ MM    .M9  MM    MM  MM69 `MM69 `Mb MM'  `Mb MM 6M'  `Mb       
+ MMMMMMM9'  MM    MM  MM'   MM'   MM MM    MM MM MM    MM       
+ MM  \M\    MM    MM  MM    MM    MM MM    MM MM MMMMMMMM       
+ MM   \M\   MM    MM  MM    MM    MM MM    MM MM MM             
+ MM    \M\  YM.   MM  MM    MM    MM MM.  ,M9 MM YM    d9       
+_MM_    \M\_ YMMM9MM__MM_  _MM_  _MM_MYMMMM9 _MM_ YMMMM9        
+                                                            """)
+
+
 # input to allow the user to pick a role to play within the game
 classF = input("what size fighter, are you small or big ")
 if (classF.lower() == "small"):
