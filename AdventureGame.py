@@ -23,13 +23,12 @@ def gameover():
   /   /(: (____/ //  \\ \__/ //       //  __'  \   //      /  // ___)_     (: (____/ //  \\ \__/ //     |.  |        (: (____/ // // ___)       \  |___   |.  |  \.    //   // ___)_   __/  \\  _____     
  /   /  \        /   /\\ __ //\      /   /  \\  \ |:  __   \ (:      "|     \        /   /\\ __ //\     \:  |         \        / (:  (         ( \_|:  \  /\  |\  \\   /   (:      "| /" \   :)))_  ")    
 |___/    \"_____/   (__________)    (___/    \___)|__|  \___) \_______)      \"_____/   (__________)     \__|          \"_____/   \__/          \_______)(__\_|_)  \__/     \_______)(_______/(_____(     
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                          
 """)
+        sleep(2.5)
+        print("""
 
-
-sleep(2.5)
-print("""
-                                                                                                                                                                                        
   _______       __       ___      ___   _______         ______  ___      ___  _______   _______                                                                                                           
  /" _   "|     /""\     |"  \    /"  | /"     "|       /    " \|"  \    /"  |/"     "| /"      \                                                                                                          
 (: ( \___)    /    \     \   \  //   |(: ______)      // ____  \\   \  //  /(: ______)|:        |                                                                                                         
@@ -39,11 +38,11 @@ print("""
  \_______)(___/    \___)|___|\__/|___| \_______)      \"_____/      \__/     \_______)|__|  \___)                                                                                                         
                                                                                                                                                                                                           
 """)
-print("your speed points are: ", speed)
-print("your agility points are: ", agility)
-print("your strength points are: ", strength)
-print("Your total points are", lives + speed + agility + strength)
-sys.exit()
+        print("your speed points are: ", speed)
+        print("your agility points are: ", agility)
+        print("your strength points are: ", strength)
+        print("Your total points are", lives + speed + agility + strength)
+        sys.exit()
 
 
 print("""________                            ___      ___                
